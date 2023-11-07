@@ -1,0 +1,400 @@
+
+<! DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes/codoacodo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="hoja de estilo" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anónimo">
+    <title>Conferencias - BA</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-body-tertiary px-5 py-2" data-bs-theme="dark">
+            <div class="contenedor-fluido">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler "
+                    aria-controls="navbar-toggler" aria-expanded="false" aria-label="Alternar navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </botón>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <a class="navbar-brand" href="#">
+                        <img id="logo-pagina" src="imagenes/codoacodo.png" width="100" alt="Logo de la pagina">
+                        <span class="nombre-logo">Conf Bs As</span>
+                    </un>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-e">
+                        <li class="puntero-cursor de elemento de navegación">
+                            <a class="nav-link active" aria-current="page" href="#">La conferencia</a >
+                        </Li>
+                        <li class="elemento de navegación">
+                            <a class="nav-link" href="#">Los oradores</a >
+                        </Li>
+                        <li class="elemento de navegación">
+                            <a class="nav-link" href="#">El lugar y la fecha</a >
+                        </Li>
+                        <li class="elemento de navegación">
+                            <a class="nav-link" href="#">Conviértete en orador</a >    
+                        </Li>
+                        <li class="elemento de navegación">
+                            <a class="nav-link link-verde" href="#">Comprar tickets</a >
+                        </Li>
+                    </Ul>
+                </Div>
+            </Div>
+        </Nav>
+    </header>
+    <div id="carrusel" class="carrusel slide card-superpuesta" data-bs-ride="carrusel">
+        <div class="carrusel-interior">
+            <div class="carrusel-item activo">
+                <img src="imagenes/ba1.jpg" class="d-block w-100" alt="Buenos Aires">
+            </Div>
+            <div class="artículo-carrusel">
+                <img src="imagenes/ba2.jpg" class="d-block w-100" alt="Buenos Aires">
+            </Div>
+            <div class="artículo-carrusel">
+                <img src="imagenes/ba3.jpg" class="d-block w-100" alt="Obelisco">
+            </Div>
+        </Div>
+    </Div>
+    <div class="card-img-overlay d-flex-column justify-content-center text-end">
+        <h5 class="título-tarjeta1">Conf Bs As</h5>
+        <p clase="texto-tarjeta1">
+            Bs As llega por primera vez a la Argentina. Un evento para compartir con
+            nuestra comunidad el conocimiento y experiencia de los expertos que 
+            están creando el futuro de Internet.Ven a conocer a miembros del
+            evento, a otros estudiantes de Codo a Codo y los oradores primer
+            nivel que tenemos para ti. Te esperamos!
+        </p>
+        <Div>
+            <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+            <button type="button" class="btn btn-success">Comprar tickets</button>
+        </Div>
+    </Div>
+    <div class="titulo-oradores">
+        <div>CONOCE A LOS</div> 
+        <H4>ORADORES</H4>
+    </Div>
+    <div class="contenedor-oradores">
+        <div class="fila">
+            <div class="card-oradores col-md-4">
+                <div class="tarjeta">
+                    <img src="imagenes/steve.jpg" class="card-img-top" alt="Steve Jobs">
+                    <div class="cuerpo-de-tarjeta">
+                        <div class="badges-contenedor">
+                        <span class="badge text-bg-warning">JavaScript</span>
+                        <span class="badge text-bg-info">React</span>
+                        </div>
+                        <h5 class="card-title">Steve Jobs</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, alias, provident magni neque ullam esse explicabo est similique soluta dolorem totam at magnam obcaecati, facilis excepturi. Possimus quasi suscipit a!</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="card-oradores col-md-4">
+                <div class="card">
+                <img src="imagenes/bill.jpg" class="card-img-top" alt="Bill Gates">
+                    <div class="card-body">
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-info">React</span>
+                        </div>
+                        <h5 class="card-title">Bill Gates</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, alias, provident magni neque ullam esse explicabo est similique soluta dolorem totam at magnam obcaecati, facilis excepturi. Possimus quasi suscipit a!</p>
+                    </div>
+                </div>
+            </div>  
+            <div class="card-oradores col-md-4">
+                <div class="card">
+                <img src="imagenes/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+                    <div class="card-body">
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-secondary">JavaScript</span>
+                            <span class="badge text-bg-danger">React</span>
+                        </div>
+                        <h5 class="card-title">Ada Lovelace</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, alias, provident magni neque ullam esse explicabo est similique soluta dolorem totam at magnam obcaecati, facilis excepturi. Possimus quasi suscipit a!</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <div class="honolulu">
+        <div class="card-honolulu">
+            <div class="row g-0">
+                <div class="col-md-6 honolulu-img">
+                    <img src="imagenes/honolulu.jpg" class="img-fluid rounded-start" alt="Honolulu">
+                </div>
+                <div class="col-md-6 p-4 bg-dark honolulu-text">
+                    <h5>Bs As - Octubre</h5>
+                    <p>Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu
+                        es
+                        la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al
+                        área
+                        urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de honolulu han formado una ciudad-
+                        condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+                    <button type="button" class="btn btn-outline-light">Conocé más</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="convocatoria-oradores">
+        <div class="div-orador">CONVIÉRTETE EN ORADOR</div> 
+        <H4>ORADOR</H4>
+        <div class="text-convocatoria">Anotate como orador para dar una <u class="subrayado">charla ignite</u>. Cuéntanos de
+            qué quieres hablar!</div>
+    </div>
+    <form action="" class="formulario">
+        <div>    
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+                <div class="mb-4 pt-3" id="textarea">
+                    <textarea class="form-control" id="Textarea1" placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
+                    <label for="textarea" class="texto-area">Recuerda incluir un título para tu charla</label>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </div>         
+            </div>
+        </div>
+    </form>
+    <footer>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"></a>
+                        </li>                    
+                        <li class="nav-item">
+                            <a class="nav-link preguntas" href="#">Preguntas<br>Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactános</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Prensa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link terminos" href="#">Términos y <br> Condiciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Privacidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Estudiantes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </footer>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
+ 192 changes: 192 additions & 0 deletions192  
+style.css
+@@ -0,0 +1,192 @@
+body {
+    padding: 0;
+}
+
+.navbar {
+    padding:3rem;          
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-verde {
+    color: rgb(15, 169, 15) !important;
+}
+
+.card-superpuesta {
+    width: 100vw;
+}
+
+.card-superpuesta img{
+    filter: brightness(40%);
+    height: 10% !important;
+}
+
+.card-img-overlay {
+    padding-right: 8.5rem !important;
+    padding-top: 30% !important;
+    padding-left: 45% !important;
+    height: max-content;
+}
+
+.card-title1, .card-text1, .btn-outline {
+    color: white;
+}
+
+.card-text1 {
+    font-size: 1rem;
+    padding-top: 1.5rem;
+}
+
+.card-title1 {
+    font-size: 2rem;
+}
+
+.btn-success{
+    background: rgb(14, 151, 14) !important;
+}
+
+.titulo-oradores div{
+    font-size: 14px;
+    text-align: center;
+}
+
+.titulo-oradores {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.card-group {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-oradores {
+    margin-top: 20px;
+    padding: 1rem 10rem;
+}
+
+.container-oradores img{
+    position: relative;
+    object-fit: cover;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-oradores {
+    text-align: center;
+}
+
+.card-honolulu {
+    width: 100vw;
+}
+
+.honolulu-text{
+    font-size: 12px;
+    color: white;
+}
+
+.honolulu-text .btn {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 5px;
+} 
+
+.convocatoria-oradores{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.div-orador{
+    font-size: 14px;
+}
+
+.text-convocatoria{
+    font-size: 13px;
+}
+
+.formulario{
+    padding-top: 5px;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.texto-area{
+    font-size: 12px;
+}
+
+.formulario button {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    background-color: #7fc33b !important;
+    color: whitesmoke;
+}
+
+footer {
+    padding-top: 15px;
+}
+
+footer .navbar{
+    background-image: linear-gradient(to right, #1a4169,
+    #0a4674, #064e74, #1a5c8a, #085fab) !important; 
+}
+
+.nav-item {
+    padding: 1rem 2rem !important;
+}
+
+.nav-item .preguntas, .terminos {
+    padding-top: 0.2rem !important;
+    text-align: center;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 14px !important;
+    text-align: center;
+    justify-items: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 767px) {
+
+    .tarjeta {
+        padding-right: 8.5rem !important;
+        max-height: 50vh;
+        padding-left: 40vw  !important;
+        font-size: 0.5rem;
+    }
+
+    .card-img-overlay {
+        padding-right: 1.5rem !important;
+        padding-top: 5% !important;
+        padding-left: 2% !important;
+        altura: contenido máximo;
+    }
+
+ . texto-tarjeta1 {
+        font-size: 1rem;
+        Acolchado: 0,7rem;
+    }
+
+ . título-tarjeta1 {
+        tamaño de fuente: 1.5rem;
+    }
+}
+
+@media pantalla y (max-width: 700px) {
+
+ . container-oradores {
+        Margen superior: 20px;
+        Relleno: 1 REM 2 REM;
+    }
+}
